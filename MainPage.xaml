@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="dquicaliquinS1T1.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="iess.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
+
+            <Label x:Name="lbl1" Text="Aporte al IESS"
+                   HorizontalTextAlignment="Center"/>
+
+
+            <Entry x:Name="txtNombre"
+                   Placeholder="Ingrese su Nombre"/>
+
+            <Entry x:Name="txtApellido"
+                   Placeholder="Ingrese su Apellido"/>
+
+            <Entry x:Name="txtEdad"
+                   Placeholder="Ingrese su Edad" Keyboard="Numeric"/>
+
+            <Entry x:Name="txtSalario"
+                    Placeholder="Ingrese su Salario" Keyboard="Numeric"/>
+            
+            <Button x:Name="btnCalcular"
+                    Text="Calcular mi Aporte"
+                    Clicked="btnCalcular_Clicked"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
