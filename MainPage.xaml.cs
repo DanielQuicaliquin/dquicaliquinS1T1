@@ -27,10 +27,9 @@
 
                 double DatoCalculado = salario * 0.0945;
 
-                DisplayAlert("Dato Informativo", "Bienvenido " + nombre + " " + apellido + "\nTienes " + edad + " años \nTu Aporte mensual al IESS es de " + DatoCalculado + " ", "Aceptar");
-
+                DisplayAlert("Dato Informativo", "Bienvenido " + nombre + " " + apellido + "\nTienes " + edad + 
+                    " años \nTu Aporte mensual al IESS es de " + DatoCalculado + " ", "Aceptar");
             }
         }
     }
-
 }
